@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= title
+    p
+        for a in data
+            p #{a.id} - #{a.imie} #{a.nazwisko}
+    form(action='/', method='get', class='form-signin')
+        input(type="submit", value="powrót", class="btn btn-sm btn-info")

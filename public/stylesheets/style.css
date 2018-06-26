@@ -1,0 +1,18 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: yellowgreen;  
+}
+
+.navbar{
+        max-width: 300px;
+    }
+
+.form-signin {
+   text-align: center;
+   width: 100%;
+   max-width: 300px;
+   padding: 35px;
+   margin: auto;
+  }
+/*# sourceMappingURL=style.css.map */

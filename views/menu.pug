@@ -1,0 +1,15 @@
+extends layout
+block content
+
+    nav(nav class="navbar navbar-dark bg-dark")
+      a(class="navbar-brand" href="/"  text-align='center')="Aplikacja zaliczeniowa"
+      button(class="navbar-toggler", type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+        span(class="navbar-toggler-icon")
+      div( class="collapse navbar-collapse", id="navbarSupportedContent")
+          li(class="nav-item")
+             a(class="nav-link" href="/logowanie")="logowanie"
+          li(class="nav-item")
+             a(class="nav-link" href="/students_status/list")="Lista studentów"
+          li(class="nav-item")
+             a(class="nav-link" href="/students_status/add")="Dodaj studenta"
+
